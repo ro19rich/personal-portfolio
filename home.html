@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-compatible" content="IE=edge">
+     <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+     <title>perosnal portfolio Website</title>
+     <link rel="stylesheet" href="home.css"> 
+     <!---font awesome cdn font icon css----->
+      
+     <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+ </head>
+ <body>
+<div id="header">
+    <div class="containor">
+        <nav>
+            <img src="logo.jpg" alt="logo" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            
+            </ul>            
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+             
+            <h1>hi,I'm <span>Robel</span><br>Welcome to my page</h1>
+                </div>
+    </div>
+    
+     
+</div>
+ <!--------about------>
+
+<div id="about">
+    <div class="containor">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="1.jpg" alt="image of robel">
+            </div>
+            <div class="about-col-2">
+                <h1  class="sub-title">About Me</h1>
+                <p>hi,I'm Robel welcome to my page.
+                </p>
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                    <p class="tab-links"onclick="opentab('hobbies')">hobbies</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>Multimedia artist or a visual storyteller</span><br>photography,videography</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Astu</span><br>Software Engineering</li>
+                        <li><span>st.mery's university</span><br>Bussiness Administration & Mangement</li>
+                        <li><span>autodidact</span><br>Digital Marketing</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="hobbies">
+                    <ul>
+                        
+                        <li><span>taking a picture of me & hairstyling for shoots</span><br>some of them</li>
+                        <div class="box">
+                            <img src="5.jpg" alt="image">
+                            <img src="3.jpg" alt="image">
+                            <img src="4.jpg" alt="image">
+                            
+                            
+                        </div>
+                        <li><span>Reading self devlopment books</span><br>'Madis Touch' by Trump & Robert T.kiyosaki<br>'Atomic Habits' by James Clear<br>'The 48 Laws of Power' by Robert Greene</li>
+                        <li><span>Learn new skills</span><br></li>
+                        <li><span>hanging out with friends</span><br></li>
+                    </ul>
+                    <br>
+                    
+                        
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------services------->
+ <div id="services">
+    <div class="containor">
+        <h1  class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>web develoopments</h2>
+                <p>our job is, essentially, to turn designs into reality via code.
+                   Understanding, and being competent in, 
+                   design is an important component of that.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>photography</h2>
+                <p> “It’s through mistakes that you actually can grow. 
+                    You have to get bad in order to get good.” - Paula Scher
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>videography</h2>
+                <p>“Animation is not the art of drawings that move but the art
+                     of movements that are drawn.” – Norman McLaren
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+
+    </div>
+ </div>
+ <!-----portfolio---------->
+ <div id="portfolio">
+    <div class="container">
+        <h1  class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="OIP.jpg" alt="web pic">
+                <div class="layer">
+                    <h3>MY WORKS</h3>
+                    <p>These are my works. if you have questions
+                        or any suggestion you can 
+                        contact me. You can order too!!
+                    </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    
+                </div>
+            </div>
+            <div class="work">
+                <img src="p2.jpg" alt="picture">
+                <div class="layer">
+                    <h3>MY WORKS</h3>
+                    <p>These are my works. if you have questions
+                        or any suggestion you can 
+                        contact me. You can order too!!</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    
+                </div>
+            </div>
+            <div class="work">
+                <img src="p3.jpg" alt="videos">
+                <div class="layer">
+                    <h3>MY WORKS</h3>
+                    <p>These are my works. if you have questions
+                        or any suggestion you can 
+                        contact me. You can order too!!</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+
+    </div>
+ </div>
+ <!--------contact---->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>robelmichael1994@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>+251946411210</p>
+                <div class="social-icons">
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-telegram"></i></a>
+                </div>
+                <a href="cv.docx" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-left">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+            
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright Robel. Made <i class="fas fa-heart"></i>by Robel Michael</p>
+    </div>
+ </div>
+<!------js---------->
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwqgGkV5N82pHbI5N8wuVMkTkYvud-7HWtko47s2nc2eU0RwTYbRTup-b_iXG24ZSq5Xg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Successfully Submitted"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+       
+ </body>
+ </html>
